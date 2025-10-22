@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Loader from "./Loader";
 import StarRating from "./StarRating";
 
+const KEY = "22209b51";
+
 function MovieDetails({ selectedId, onCloseMovie, onAddMovie, watched }) {
   const [movie, setMovie] = useState({});
   const [userRating, setUserRating] = useState(0);
